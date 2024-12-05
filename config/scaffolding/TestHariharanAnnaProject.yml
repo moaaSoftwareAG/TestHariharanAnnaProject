@@ -7,6 +7,15 @@ packages:
   gitUrl: https://github.com/moaaSoftwareAG
   gitUsername: moaaSoftwareAG
   gitBranch: main
+services:
+- serviceName: project.testhariharananna.integrations:flow
+  packages:
+  - name: TestHariharanAnnaProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2021
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
